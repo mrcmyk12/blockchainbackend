@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"test": "jest --watchAll",
-		"start": "npm run build node index.js",
+		"start": "node index.js",
 		"server": "nodemon index.js",
 		"client": "npm run start --prefix schrutebucks",
 		"dev": "npm run cross-env ENV='development' nodemon index.js",
